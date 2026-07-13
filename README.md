@@ -59,7 +59,7 @@ tests/
 |---|---|
 | UI | Gradio |
 | LLM | Groq API — `llama-3.1-8b-instant` / `llama-3.3-70b-versatile` / `mixtral-8x7b` |
-| Embeddings | `nomic-embed-text` |
+| Embeddings | `BAAI/bge-small-en-v1.5` via sentence-transformers |
 | Vector DB | ChromaDB, in-memory (per session, no persistence) |
 | Retrieval | Top-k cosine similarity |
 | PDF parsing | PyMuPDF |
